@@ -30,7 +30,7 @@ console.log(orders)
 }
 fetchData();
 
-},[])
+},[]) //eslint-disable-line
 
     return (
       <main>
