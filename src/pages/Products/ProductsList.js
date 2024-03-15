@@ -3,9 +3,9 @@ import { ProductCard } from "../../components/ProductCard"
 import { FilterBar } from './components/FilterBar'
 import { useLocation } from "react-router-dom"
 import { useTitle } from "../../hooks/useTitle"
+import { toast } from "react-toastify"
 import { useFilter } from "../../Context/FilterContext"
 import { fetchProductList } from '../../services'
-import { toast } from "react-toastify"
 
 
 export const ProductsList = () => {
